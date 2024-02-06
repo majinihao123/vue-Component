@@ -1,12 +1,17 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-link to="/">首页</router-link>
+    <router-link to="/time-picker">时间组件</router-link>
+    <router-view />
   </div>
 </template>
 
 <script>
+import router from './router';
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: { router }
 }
 </script>
 

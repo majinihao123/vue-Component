@@ -1,15 +1,23 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import home from '@/components/home'
+import timePicker from '@/components/time-picker'
+import myVueRouter from '@/myComponents/myRouter/myVueRouter'
+import home from "@/view/home"
 
-Vue.use(Router)
 
-export default new Router({
+Vue.use(myVueRouter)
+
+export default new myVueRouter({
   routes: [
     {
       path: '/',
       name: 'home',
       component: home
+    },
+    {
+      path: '/time-picker',
+      name: 'time-picker',
+      component: timePicker
     }
   ]
 })
