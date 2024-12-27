@@ -23,7 +23,7 @@
                 </template>
             </el-table-column>
 
-            <el-table-column prop="name" label="下发通行证数量">
+            <el-table-column prop="name" label="数量">
                 <template slot-scope="scope">
                     <template v-if="scope.row.action == 'view'">
                         {{ scope.row.num }}
