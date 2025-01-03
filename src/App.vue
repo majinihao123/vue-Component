@@ -4,6 +4,7 @@
     <router-link to="/time-picker">时间组件</router-link>
     <router-link to="/edit-table">可编辑表格</router-link>
     <router-link to="/addForm">表单生成</router-link>
+    <router-link to="/mapChose">地图选择</router-link>
     <router-view />
   </div>
 </template>

@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import timePicker from '@/components/time-picker'
 import addForm from '@/components/addForm'
 import editTable from '../components/editTable.vue'
+import mapChose from '../components/mapChose.vue'
 import myVueRouter from '@/myComponents/myRouter/myVueRouter'
 
 import home from "@/view/home"
@@ -31,6 +32,11 @@ export default new myVueRouter({
       path: '/addForm',
       name: 'addForm',
       component: addForm
+    },
+    {
+      path: '/mapChose',
+      name: 'mapChose',
+      component: mapChose
     },
   ]
 })
