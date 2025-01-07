@@ -10,7 +10,8 @@
 启动代码
 npm i
 npm start  
-
+# 在线地址
+https://majinihao123.github.io/vue-Component/dist/
 
 
 
